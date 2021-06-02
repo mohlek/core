@@ -8,7 +8,8 @@ from homeassistant.const import CONF_HOST, CONF_PASSWORD, EVENT_HOMEASSISTANT_ST
 from homeassistant.helpers import discovery
 import homeassistant.helpers.config_validation as cv
 
-DOMAIN = "velux"
+from .const import DOMAIN
+
 DATA_VELUX = "data_velux"
 PLATFORMS = ["cover", "scene"]
 _LOGGER = logging.getLogger(__name__)
